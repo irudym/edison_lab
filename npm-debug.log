@@ -1,0 +1,481 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'mraa' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/igor/Development/NODE.JS/mqttEdison/package.json
+5 warn package.json mqttedison@1.0.0 No description
+6 warn package.json mqttedison@1.0.0 No repository field.
+7 warn package.json mqttedison@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/igor/Development/NODE.JS/mqttEdison/node_modules/jquery/package.json
+9 verbose installManyTop reading scoped package data from /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mqtt/package.json
+10 info package.json jquery@2.1.4 No license field.
+11 verbose readDependencies loading dependencies from /Users/igor/Development/NODE.JS/mqttEdison/package.json
+12 silly cache add args [ 'mraa', null ]
+13 verbose cache add spec mraa
+14 silly cache add parsed spec { raw: 'mraa',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'mraa',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: '*',
+14 silly cache add   type: 'range' }
+15 silly addNamed mraa@*
+16 verbose addNamed "*" is a valid semver range for mraa
+17 silly addNameRange { name: 'mraa', range: '*', hasData: false }
+18 silly mapToRegistry name mraa
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/mraa
+22 verbose addNameRange registry:https://registry.npmjs.org/mraa not in flight; fetching
+23 verbose request uri https://registry.npmjs.org/mraa
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 1:44:27 PM
+26 verbose request id c0dc1a8090a05e73
+27 http request GET https://registry.npmjs.org/mraa
+28 http 200 https://registry.npmjs.org/mraa
+29 silly get cb [ 200,
+29 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly get     etag: '"5LLQD2FT79WBA0ZOFD95RARRW"',
+29 silly get     'content-type': 'application/json',
+29 silly get     'cache-control': 'max-age=60',
+29 silly get     'content-length': '139254',
+29 silly get     'accept-ranges': 'bytes',
+29 silly get     date: 'Mon, 31 Aug 2015 10:44:28 GMT',
+29 silly get     via: '1.1 varnish',
+29 silly get     age: '0',
+29 silly get     connection: 'keep-alive',
+29 silly get     'x-served-by': 'cache-ams4123-AMS',
+29 silly get     'x-cache': 'MISS',
+29 silly get     'x-cache-hits': '0',
+29 silly get     'x-timer': 'S1441017868.107048,VS0,VE375',
+29 silly get     vary: 'Accept' } ]
+30 verbose get saving mraa to /Users/igor/.npm/registry.npmjs.org/mraa/.cache.json
+31 silly addNameRange number 2 { name: 'mraa', range: '*', hasData: true }
+32 silly addNameRange versions [ 'mraa',
+32 silly addNameRange   [ '0.5.2-46-gd4552fd',
+32 silly addNameRange     '0.5.2-47-ga38c07f',
+32 silly addNameRange     '0.5.2-48-g0ca4b10',
+32 silly addNameRange     '0.5.2-49-gabd538d',
+32 silly addNameRange     '0.5.2-50-g8be861a',
+32 silly addNameRange     '0.5.2-51-g276b0a8',
+32 silly addNameRange     '0.5.2-62-g0289c63',
+32 silly addNameRange     '0.5.2-63-gd1185ef',
+32 silly addNameRange     '0.5.3',
+32 silly addNameRange     '0.5.3-2-g9684915',
+32 silly addNameRange     '0.5.3-3-g36e24ba',
+32 silly addNameRange     '0.5.3-4-g14f4567',
+32 silly addNameRange     '0.5.3-5-g1b059c1',
+32 silly addNameRange     '0.5.3-6-g7ad78d0',
+32 silly addNameRange     '0.5.3-7-gacc3476',
+32 silly addNameRange     '0.5.4',
+32 silly addNameRange     '0.5.4-2-g8aa2ccc',
+32 silly addNameRange     '0.5.4-1-ged1fc6c',
+32 silly addNameRange     '0.5.4-2-gffdd828',
+32 silly addNameRange     '0.5.4-5-g1ee0548',
+32 silly addNameRange     '0.5.4-6-gcf1a864',
+32 silly addNameRange     '0.5.4-14-gaff8811',
+32 silly addNameRange     '0.5.4-20-g82eee9b',
+32 silly addNameRange     '0.5.4-21-g71913b9',
+32 silly addNameRange     '0.5.4-22-gbd16ecc',
+32 silly addNameRange     '0.5.4-24-g2c5e749',
+32 silly addNameRange     '0.5.4-25-g0c086d8',
+32 silly addNameRange     '0.5.4-26-gda15fdb',
+32 silly addNameRange     '0.5.4-27-g643bb99',
+32 silly addNameRange     '0.5.4-28-g4944f42',
+32 silly addNameRange     '0.5.4-29-gf277e7d',
+32 silly addNameRange     '0.5.4-30-gf6a05b1',
+32 silly addNameRange     '0.5.4-31-gf7256f1',
+32 silly addNameRange     '0.5.4-32-g71118af',
+32 silly addNameRange     '0.5.4-34-g4d8b82e',
+32 silly addNameRange     '0.5.4-36-ge5835fa',
+32 silly addNameRange     '0.5.4-37-g3c4742c',
+32 silly addNameRange     '0.5.4-38-gd58adef',
+32 silly addNameRange     '0.5.4-41-g2574efd',
+32 silly addNameRange     '0.5.4-42-ge7649db',
+32 silly addNameRange     '0.5.4-45-gbc05ce7',
+32 silly addNameRange     '0.5.4-46-g74d172c',
+32 silly addNameRange     '0.5.4-63-gec5c09f',
+32 silly addNameRange     '0.5.4-64-g3efb7a0',
+32 silly addNameRange     '0.5.4-65-ga76061a',
+32 silly addNameRange     '0.5.4-66-g44d6ebf',
+32 silly addNameRange     '0.5.4-66-g62c3264',
+32 silly addNameRange     '0.5.4-71-g17ee0c9',
+32 silly addNameRange     '0.5.4-76-g5af1197',
+32 silly addNameRange     '0.5.4-78-g21962f4',
+32 silly addNameRange     '0.5.4-79-gc3e43e5',
+32 silly addNameRange     '0.5.4-80-g50ca84b',
+32 silly addNameRange     '0.5.4-81-g5daad72',
+32 silly addNameRange     '0.5.4-82-g66eb476',
+32 silly addNameRange     '0.5.4-83-g20d2291',
+32 silly addNameRange     '0.5.4-84-ged4c68e',
+32 silly addNameRange     '0.5.4-85-g9cfbc87',
+32 silly addNameRange     '0.5.4-86-g97d5a3e',
+32 silly addNameRange     '0.5.4-88-g4e59917',
+32 silly addNameRange     '0.5.4-89-gc3980c2',
+32 silly addNameRange     '0.5.4-90-ge23325d',
+32 silly addNameRange     '0.5.4-91-g456646c',
+32 silly addNameRange     '0.5.4-92-g067487f',
+32 silly addNameRange     '0.5.4-94-ge8bc227',
+32 silly addNameRange     '0.5.4-95-gfb54307',
+32 silly addNameRange     '0.5.4-96-g94dd44a',
+32 silly addNameRange     '0.5.4-97-g212be29',
+32 silly addNameRange     '0.5.4-98-gd88da13',
+32 silly addNameRange     '0.5.4-100-g6c73a8a',
+32 silly addNameRange     '0.5.4-101-g82bb1c5',
+32 silly addNameRange     '0.5.4-102-ge68546a',
+32 silly addNameRange     '0.5.4-103-g4d81fec',
+32 silly addNameRange     '0.5.4-104-g019b0a5',
+32 silly addNameRange     '0.5.4-105-gbaa1a0a',
+32 silly addNameRange     '0.5.4-106-gdbc64fb',
+32 silly addNameRange     '0.5.4-107-gcd6701d',
+32 silly addNameRange     '0.5.4-108-ge7c3c17',
+32 silly addNameRange     '0.5.4-109-g8ccefe9',
+32 silly addNameRange     '0.5.4-110-g459ecc0',
+32 silly addNameRange     '0.5.4-112-g2dc79dd',
+32 silly addNameRange     '0.5.4-115-g403424e',
+32 silly addNameRange     '0.5.4-118-g818e1a8',
+32 silly addNameRange     '0.5.4-121-g2965665',
+32 silly addNameRange     '0.5.4-126-g989566b',
+32 silly addNameRange     '0.5.4-127-gcd36880',
+32 silly addNameRange     '0.5.4-134-gd6891e8',
+32 silly addNameRange     '0.5.4-135-gdd80730',
+32 silly addNameRange     '0.5.4-137-g9d80b12',
+32 silly addNameRange     '0.5.4-138-g163a40e',
+32 silly addNameRange     '0.5.4-139-gefdbf4b',
+32 silly addNameRange     '0.5.4-140-g797b137',
+32 silly addNameRange     '0.5.4-141-ga2220e3',
+32 silly addNameRange     '0.6.1',
+32 silly addNameRange     '0.6.1-2-ga747c80',
+32 silly addNameRange     '0.6.1-5-g3b3b940',
+32 silly addNameRange     '0.6.1-6-g10f450b',
+32 silly addNameRange     '0.6.1-7-g76ffa35',
+32 silly addNameRange     '0.6.1-8-g2c74ba7',
+32 silly addNameRange     '0.6.1-9-g677af12',
+32 silly addNameRange     '0.6.1-10-gf33880c',
+32 silly addNameRange     '0.6.1-11-g7375146',
+32 silly addNameRange     '0.6.1-12-gf854a2b',
+32 silly addNameRange     '0.6.1-14-g0dd0395',
+32 silly addNameRange     '0.6.1-15-g228b7b6',
+32 silly addNameRange     '0.6.1-16-gc621fad',
+32 silly addNameRange     '0.6.1-17-g805d22f',
+32 silly addNameRange     '0.6.1-18-g62213fa',
+32 silly addNameRange     '0.6.1-21-g8b0b9f1',
+32 silly addNameRange     '0.6.1-22-ge03eec3',
+32 silly addNameRange     '0.6.1-31-g2174ee1',
+32 silly addNameRange     '0.6.1-32-gffcf3d7',
+32 silly addNameRange     '0.6.1-33-g2388fb9',
+32 silly addNameRange     '0.6.1-34-g52c5376',
+32 silly addNameRange     '0.6.1-36-gbe4312e',
+32 silly addNameRange     '0.6.2',
+32 silly addNameRange     '0.7.0',
+32 silly addNameRange     '0.7.1',
+32 silly addNameRange     '0.7.2',
+32 silly addNameRange     '0.7.3' ] ]
+33 silly addNamed mraa@0.7.3
+34 verbose addNamed "0.7.3" is a plain semver version for mraa
+35 silly mapToRegistry name mraa
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/mraa
+39 verbose addRemoteTarball https://registry.npmjs.org/mraa/-/mraa-0.7.3.tgz not in flight; adding
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/mraa/-/mraa-0.7.3.tgz',
+40 verbose addRemoteTarball   'bab9e8f6300f59bb5dd74e47d32b10f8686c9095' ]
+41 info retry fetch attempt 1 at 1:44:28 PM
+42 info attempt registry request try #1 at 1:44:28 PM
+43 http fetch GET https://registry.npmjs.org/mraa/-/mraa-0.7.3.tgz
+44 http fetch 200 https://registry.npmjs.org/mraa/-/mraa-0.7.3.tgz
+45 silly fetchAndShaCheck shasum bab9e8f6300f59bb5dd74e47d32b10f8686c9095
+46 verbose addTmpTarball /var/folders/lk/w99tp48x7cldq3pwfqclsv5m0000gp/T/npm-1362-71685608/registry.npmjs.org/mraa/-/mraa-0.7.3.tgz not in flight; adding
+47 verbose addTmpTarball already have metadata; skipping unpack for mraa@0.7.3
+48 silly cache afterAdd mraa@0.7.3
+49 verbose afterAdd /Users/igor/.npm/mraa/0.7.3/package/package.json not in flight; writing
+50 verbose afterAdd /Users/igor/.npm/mraa/0.7.3/package/package.json written
+51 silly install resolved [ { name: 'mraa',
+51 silly install resolved     description: 'IO library that helps you use I2c, SPI, gpio, uart, pwm, analog inputs (aio) and more on a number of platforms such as the Intel galileo, the Intel edison and others',
+51 silly install resolved     keywords:
+51 silly install resolved      [ 'gpio',
+51 silly install resolved        'edison',
+51 silly install resolved        'galileo',
+51 silly install resolved        'io',
+51 silly install resolved        'mraajs',
+51 silly install resolved        'spi',
+51 silly install resolved        'i2c',
+51 silly install resolved        'minnow',
+51 silly install resolved        'intel' ],
+51 silly install resolved     homepage: 'http://github.com/intel-iot-devkit/mraa',
+51 silly install resolved     main: './build/Release/mraa.node',
+51 silly install resolved     engines: { node: '>= 0.10.x' },
+51 silly install resolved     bugs: { url: 'http://github.com/intel-iot-devkit/mraa/issues' },
+51 silly install resolved     license: 'MIT',
+51 silly install resolved     version: '0.7.3',
+51 silly install resolved     authors: 'See github.com/intel-iot-devkit/mraa/graphs/contributors',
+51 silly install resolved     scripts: { install: 'node-gyp rebuild' },
+51 silly install resolved     gypfile: true,
+51 silly install resolved     _id: 'mraa@0.7.3',
+51 silly install resolved     _shasum: 'bab9e8f6300f59bb5dd74e47d32b10f8686c9095',
+51 silly install resolved     _resolved: 'https://registry.npmjs.org/mraa/-/mraa-0.7.3.tgz',
+51 silly install resolved     _from: 'mraa@*',
+51 silly install resolved     _npmVersion: '2.10.1',
+51 silly install resolved     _nodeVersion: '0.12.4',
+51 silly install resolved     _npmUser: { name: 'arfoll', email: 'brendan.le.foll@intel.com' },
+51 silly install resolved     maintainers: [ [Object] ],
+51 silly install resolved     dist:
+51 silly install resolved      { shasum: 'bab9e8f6300f59bb5dd74e47d32b10f8686c9095',
+51 silly install resolved        tarball: 'http://registry.npmjs.org/mraa/-/mraa-0.7.3.tgz' },
+51 silly install resolved     directories: {} } ]
+52 info install mraa@0.7.3 into /Users/igor/Development/NODE.JS/mqttEdison
+53 info installOne mraa@0.7.3
+54 verbose installOne of mraa to /Users/igor/Development/NODE.JS/mqttEdison not in flight; installing
+55 verbose lock using /Users/igor/.npm/_locks/mraa-3139b5378ef37a20.lock for /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa
+56 silly install write writing mraa 0.7.3 to /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa
+57 verbose unbuild node_modules/mraa
+58 silly gentlyRm /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa is being purged from base /Users/igor/Development/NODE.JS/mqttEdison
+59 verbose gentlyRm don't care about contents; nuking /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa
+60 verbose tar unpack /Users/igor/.npm/mraa/0.7.3/package.tgz
+61 verbose tar unpacking to /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa
+62 silly gentlyRm /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa is being purged
+63 verbose gentlyRm don't care about contents; nuking /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa
+64 silly gunzTarPerm modes [ '755', '644' ]
+65 silly gunzTarPerm extractEntry
+66 silly gunzTarPerm extractEntry .clang-format
+67 silly gunzTarPerm extractEntry src/
+68 silly gunzTarPerm extractEntry src/version.c
+69 silly gunzTarPerm extractEntry src/uart/
+70 silly gunzTarPerm extractEntry src/uart/uart.c
+71 silly gunzTarPerm extractEntry src/doxy2swig.py
+72 silly gunzTarPerm extractEntry src/gpio/
+73 silly gunzTarPerm extractEntry src/gpio/gpio.c
+74 silly gunzTarPerm extractEntry src/mraa.i
+75 silly gunzTarPerm extractEntry src/aio/
+76 silly gunzTarPerm extractEntry src/aio/aio.c
+77 silly gunzTarPerm extractEntry src/arm/
+78 silly gunzTarPerm extractEntry src/arm/beaglebone.c
+79 silly gunzTarPerm extractEntry src/arm/raspberry_pi.c
+80 silly gunzTarPerm extractEntry src/arm/CMakeLists.txt
+81 silly gunzTarPerm extractEntry src/arm/arm.c
+82 silly gunzTarPerm extractEntry src/arm/banana.c
+83 silly gunzTarPerm extractEntry src/i2c/
+84 silly gunzTarPerm extractEntry src/i2c/LICENSE
+85 silly gunzTarPerm extractEntry src/i2c/i2c.c
+86 silly gunzTarPerm extractEntry src/python/
+87 silly gunzTarPerm extractEntry src/python/mraa.i
+88 silly gunzTarPerm extractEntry src/python/docs/
+89 silly gunzTarPerm extractEntry src/python/docs/example.rst
+90 silly gunzTarPerm extractEntry src/python/docs/mraa.rst
+91 silly gunzTarPerm extractEntry src/python/docs/conf.py.in
+92 silly gunzTarPerm extractEntry src/python/docs/index.rst
+93 silly gunzTarPerm extractEntry src/python/docs/CMakeLists.txt
+94 silly gunzTarPerm extractEntry src/python/CMakeLists.txt
+95 silly gunzTarPerm extractEntry src/x86/
+96 silly gunzTarPerm extractEntry src/x86/intel_minnow_max.c
+97 silly gunzTarPerm extractEntry src/x86/intel_galileo_rev_g.c
+98 silly gunzTarPerm extractEntry src/x86/intel_galileo_rev_d.c
+99 silly gunzTarPerm extractEntry src/x86/intel_de3815.c
+100 silly gunzTarPerm extractEntry src/x86/CMakeLists.txt
+101 silly gunzTarPerm extractEntry src/x86/intel_edison_fab_c.c
+102 silly gunzTarPerm extractEntry src/x86/x86.c
+103 silly gunzTarPerm extractEntry src/javascript/
+104 silly gunzTarPerm extractEntry src/javascript/mraajs.i
+105 silly gunzTarPerm extractEntry src/javascript/doxygen2jsdoc_custom.json
+106 silly gunzTarPerm extractEntry src/javascript/CMakeLists.txt
+107 silly gunzTarPerm extractEntry src/javascript/binding.gyp.cmake
+108 silly gunzTarPerm extractEntry src/javascript/package.json.cmake
+109 silly gunzTarPerm extractEntry src/java/
+110 silly gunzTarPerm extractEntry src/java/CMakeLists.txt
+111 silly gunzTarPerm extractEntry src/java/mraajava.i
+112 silly gunzTarPerm extractEntry src/spi/
+113 silly gunzTarPerm extractEntry src/spi/spi.c
+114 silly gunzTarPerm extractEntry src/pwm/
+115 silly gunzTarPerm extractEntry src/pwm/pwm.c
+116 silly gunzTarPerm extractEntry src/CMakeLists.txt
+117 silly gunzTarPerm extractEntry src/mraajsJAVASCRIPT_wrap.cxx
+118 silly gunzTarPerm extractEntry src/mraa.c
+119 silly gunzTarPerm extractEntry src/mraa.pc.cmake
+120 silly gunzTarPerm extractEntry examples/
+121 silly gunzTarPerm extractEntry examples/hellomraa.c
+122 silly gunzTarPerm extractEntry examples/analogin_a0.c
+123 silly gunzTarPerm extractEntry examples/blink-io.c
+124 silly gunzTarPerm extractEntry examples/mmap-io2.c
+125 silly gunzTarPerm extractEntry examples/uart_setup.c
+126 silly gunzTarPerm extractEntry examples/python/
+127 silly gunzTarPerm extractEntry examples/python/blink-io8.py
+128 silly gunzTarPerm extractEntry examples/python/rgblcd.py
+129 silly gunzTarPerm extractEntry examples/python/hello_isr.py
+130 silly gunzTarPerm extractEntry examples/python/cycle-pwm3.py
+131 silly gunzTarPerm extractEntry examples/python/spi.py
+132 silly gunzTarPerm extractEntry examples/python/uart.py
+133 silly gunzTarPerm extractEntry examples/python/aio.py
+134 silly gunzTarPerm extractEntry examples/python/bmp85.py
+135 silly gunzTarPerm extractEntry examples/python/hello_gpio.py
+136 silly gunzTarPerm extractEntry examples/javascript/
+137 silly gunzTarPerm extractEntry examples/javascript/spi.js
+138 silly gunzTarPerm extractEntry examples/javascript/bmp85.js
+139 silly gunzTarPerm extractEntry examples/javascript/rgblcd.js
+140 silly gunzTarPerm extractEntry examples/javascript/GPIO_DigitalWrite.js
+141 silly gunzTarPerm extractEntry examples/javascript/isr.js
+142 silly gunzTarPerm extractEntry examples/javascript/Blink-IO.js
+143 silly gunzTarPerm extractEntry examples/javascript/GPIO_DigitalRead.js
+144 silly gunzTarPerm extractEntry examples/javascript/AioA0.js
+145 silly gunzTarPerm extractEntry examples/javascript/uart.js
+146 silly gunzTarPerm extractEntry examples/mraa-gpio.c
+147 silly gunzTarPerm extractEntry examples/java/
+148 silly gunzTarPerm extractEntry examples/java/Isr.java
+149 silly gunzTarPerm extractEntry examples/java/Bmp85.java
+150 silly gunzTarPerm extractEntry examples/java/BlinkOnboard.java
+151 silly gunzTarPerm extractEntry examples/java/GpioRead6.java
+152 silly gunzTarPerm extractEntry examples/java/CyclePwm3.java
+153 silly gunzTarPerm extractEntry examples/java/Example.java
+154 silly gunzTarPerm extractEntry examples/cycle-pwm3.c
+155 silly gunzTarPerm extractEntry examples/gpio_read6.c
+156 silly gunzTarPerm extractEntry examples/i2c_HMC5883L.c
+157 silly gunzTarPerm extractEntry examples/c++/
+158 silly gunzTarPerm extractEntry examples/c++/Pwm3-cycle.cpp
+159 silly gunzTarPerm extractEntry examples/c++/Uart-example.cpp
+160 silly gunzTarPerm extractEntry examples/c++/I2c-compass.cpp
+161 silly gunzTarPerm extractEntry examples/c++/Spi-pot.cpp
+162 silly gunzTarPerm extractEntry examples/c++/AioA0.cpp
+163 silly gunzTarPerm extractEntry examples/c++/CMakeLists.txt
+164 silly gunzTarPerm extractEntry examples/c++/Blink-IO.cpp
+165 silly gunzTarPerm extractEntry examples/CMakeLists.txt
+166 silly gunzTarPerm extractEntry examples/blink_onboard.c
+167 silly gunzTarPerm extractEntry examples/spi_max7219.c
+168 silly gunzTarPerm extractEntry examples/helloedison.c
+169 silly gunzTarPerm extractEntry examples/isr_pin6.c
+170 silly gunzTarPerm extractEntry examples/spi_mcp4261.c
+171 silly gunzTarPerm extractEntry cmake/
+172 silly gunzTarPerm extractEntry cmake/Toolchains/
+173 silly gunzTarPerm extractEntry cmake/Toolchains/oe-sdk_cross.cmake
+174 silly gunzTarPerm extractEntry cmake/modules/
+175 silly gunzTarPerm extractEntry cmake/modules/TargetArch.cmake
+176 silly gunzTarPerm extractEntry cmake/modules/GetGitRevisionDescription.cmake.in
+177 silly gunzTarPerm extractEntry cmake/modules/LICENSE_1_0.txt
+178 silly gunzTarPerm extractEntry cmake/modules/version.c.in
+179 silly gunzTarPerm extractEntry cmake/modules/CPackDeb.cmake
+180 silly gunzTarPerm extractEntry cmake/modules/FindSphinx.cmake
+181 silly gunzTarPerm extractEntry cmake/modules/LICENSE.LGPL
+182 silly gunzTarPerm extractEntry cmake/modules/Copyright.txt
+183 silly gunzTarPerm extractEntry cmake/modules/FindNodejs.cmake
+184 silly gunzTarPerm extractEntry cmake/modules/GetGitRevisionDescription.cmake
+185 silly gunzTarPerm extractEntry cmake/modules/FindYuidoc.cmake
+186 silly gunzTarPerm extractEntry READMEFIRST
+187 silly gunzTarPerm extractEntry tests/
+188 silly gunzTarPerm extractEntry tests/CMakeLists.txt
+189 silly gunzTarPerm extractEntry tests/general_checks.py
+190 silly gunzTarPerm extractEntry tests/gpio_checks.py
+191 silly gunzTarPerm extractEntry tests/platform_checks.py
+192 silly gunzTarPerm extractEntry package.json
+193 silly gunzTarPerm extractEntry COPYING
+194 silly gunzTarPerm extractEntry binding.gyp
+195 silly gunzTarPerm extractEntry doxygen2jsdoc/
+196 silly gunzTarPerm extractEntry DoxygenLayout.xml
+197 silly gunzTarPerm extractEntry README.md
+198 silly gunzTarPerm extractEntry api/
+199 silly gunzTarPerm extractEntry api/mraa/
+200 silly gunzTarPerm extractEntry api/mraa/types.h
+201 silly gunzTarPerm extractEntry api/mraa/aio.hpp
+202 silly gunzTarPerm extractEntry api/mraa/spi.hpp
+203 silly gunzTarPerm extractEntry api/mraa/gpio.h
+204 silly gunzTarPerm extractEntry api/mraa/gpio.hpp
+205 silly gunzTarPerm extractEntry api/mraa/aio.h
+206 silly gunzTarPerm extractEntry api/mraa/uart.hpp
+207 silly gunzTarPerm extractEntry api/mraa/common.hpp
+208 silly gunzTarPerm extractEntry api/mraa/i2c.h
+209 silly gunzTarPerm extractEntry api/mraa/pwm.h
+210 silly gunzTarPerm extractEntry api/mraa/spi.h
+211 silly gunzTarPerm extractEntry api/mraa/i2c.hpp
+212 silly gunzTarPerm extractEntry api/mraa/common.h
+213 silly gunzTarPerm extractEntry api/mraa/uart.h
+214 silly gunzTarPerm extractEntry api/mraa/pwm.hpp
+215 silly gunzTarPerm extractEntry api/mraa.h
+216 silly gunzTarPerm extractEntry api/mraa.hpp
+217 silly gunzTarPerm extractEntry docs/
+218 silly gunzTarPerm extractEntry docs/edison.md
+219 silly gunzTarPerm extractEntry docs/testing.md
+220 silly gunzTarPerm extractEntry docs/index.md
+221 silly gunzTarPerm extractEntry docs/i2c.txt
+222 silly gunzTarPerm extractEntry docs/beaglebone.md
+223 silly gunzTarPerm extractEntry docs/raspberry_pi.md
+224 silly gunzTarPerm extractEntry docs/galileorevd.md
+225 silly gunzTarPerm extractEntry docs/internals.md
+226 silly gunzTarPerm extractEntry docs/minnow_max.md
+227 silly gunzTarPerm extractEntry docs/platform-hooks.md
+228 silly gunzTarPerm extractEntry docs/galileorevh.md
+229 silly gunzTarPerm extractEntry docs/contributing.md
+230 silly gunzTarPerm extractEntry docs/intel_de3815.md
+231 silly gunzTarPerm extractEntry docs/banana_pi.md
+232 silly gunzTarPerm extractEntry docs/npm.md
+233 silly gunzTarPerm extractEntry docs/debugging.md
+234 silly gunzTarPerm extractEntry Doxyfile.in
+235 silly gunzTarPerm extractEntry CMakeLists.txt
+236 silly gunzTarPerm extractEntry include/
+237 silly gunzTarPerm extractEntry include/arm/
+238 silly gunzTarPerm extractEntry include/arm/banana.h
+239 silly gunzTarPerm extractEntry include/arm/raspberry_pi.h
+240 silly gunzTarPerm extractEntry include/arm/beaglebone.h
+241 silly gunzTarPerm extractEntry include/linux/
+242 silly gunzTarPerm extractEntry include/linux/i2c-dev.h
+243 silly gunzTarPerm extractEntry include/linux/types.h
+244 silly gunzTarPerm extractEntry include/linux/posix_types.h
+245 silly gunzTarPerm extractEntry include/linux/README
+246 silly gunzTarPerm extractEntry include/linux/compiler.h
+247 silly gunzTarPerm extractEntry include/x86/
+248 silly gunzTarPerm extractEntry include/x86/intel_de3815.h
+249 silly gunzTarPerm extractEntry include/x86/intel_minnow_max.h
+250 silly gunzTarPerm extractEntry include/x86/intel_galileo_rev_g.h
+251 silly gunzTarPerm extractEntry include/x86/intel_galileo_rev_d.h
+252 silly gunzTarPerm extractEntry include/x86/intel_edison_fab_c.h
+253 silly gunzTarPerm extractEntry include/mraa_adv_func.h
+254 silly gunzTarPerm extractEntry include/mraa_internal.h
+255 silly gunzTarPerm extractEntry include/mraa_internal_types.h
+256 silly gunzTarPerm extractEntry include/version.h
+257 silly gunzTarPerm extractEntry .gitmodules
+258 verbose write writing to /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa/package.json
+259 info preinstall mraa@0.7.3
+260 verbose readDependencies loading dependencies from /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa/package.json
+261 verbose readDependencies loading dependencies from /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa/package.json
+262 silly install resolved []
+263 verbose about to build /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa
+264 info build /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa
+265 info linkStuff mraa@0.7.3
+266 silly linkStuff mraa@0.7.3 has /Users/igor/Development/NODE.JS/mqttEdison/node_modules as its parent node_modules
+267 verbose linkBins mraa@0.7.3
+268 verbose linkMans mraa@0.7.3
+269 verbose rebuildBundles mraa@0.7.3
+270 info install mraa@0.7.3
+271 verbose unsafe-perm in lifecycle true
+272 info mraa@0.7.3 Failed to exec install script
+273 verbose unlock done using /Users/igor/.npm/_locks/mraa-3139b5378ef37a20.lock for /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa
+274 verbose stack Error: mraa@0.7.3 install: `node-gyp rebuild`
+274 verbose stack Exit status 1
+274 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+274 verbose stack     at EventEmitter.emit (events.js:110:17)
+274 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+274 verbose stack     at ChildProcess.emit (events.js:110:17)
+274 verbose stack     at maybeClose (child_process.js:1015:16)
+274 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+275 verbose pkgid mraa@0.7.3
+276 verbose cwd /Users/igor/Development/NODE.JS/mqttEdison
+277 error Darwin 14.3.0
+278 error argv "node" "/usr/local/bin/npm" "install" "mraa"
+279 error node v0.12.7
+280 error npm  v2.11.3
+281 error code ELIFECYCLE
+282 error mraa@0.7.3 install: `node-gyp rebuild`
+282 error Exit status 1
+283 error Failed at the mraa@0.7.3 install script 'node-gyp rebuild'.
+283 error This is most likely a problem with the mraa package,
+283 error not with npm itself.
+283 error Tell the author that this fails on your system:
+283 error     node-gyp rebuild
+283 error You can get their info via:
+283 error     npm owner ls mraa
+283 error There is likely additional logging output above.
+284 verbose exit [ 1, true ]
+285 verbose unbuild node_modules/mraa
+286 info preuninstall mraa@0.7.3
+287 info uninstall mraa@0.7.3
+288 verbose unbuild rmStuff mraa@0.7.3 from /Users/igor/Development/NODE.JS/mqttEdison/node_modules
+289 info postuninstall mraa@0.7.3
+290 silly gentlyRm /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa is being purged from base /Users/igor/Development/NODE.JS/mqttEdison
+291 verbose gentlyRm don't care about contents; nuking /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa
+292 silly vacuum-fs purging /Users/igor/Development/NODE.JS/mqttEdison/node_modules/mraa
+293 silly vacuum-fs quitting because other entries in /Users/igor/Development/NODE.JS/mqttEdison/node_modules
